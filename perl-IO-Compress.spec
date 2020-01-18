@@ -3,7 +3,7 @@
 
 Name:           perl-IO-Compress
 Version:        2.061
-Release:        1.1%{?dist}
+Release:        2%{?dist}
 Summary:        Read and write compressed data
 License:        GPL+ or Artistic
 Group:          Development/Libraries
@@ -123,6 +123,9 @@ make test %{?with_long_tests:COMPRESS_ZLIB_RUN_ALL=1}
 %{_mandir}/man3/IO::Uncompress::*.3pm*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 2.061-2
+- Mass rebuild 2013-12-27
+
 * Thu Aug 01 2013 Petr Šabata <contyk@redhat.com> - 2.061-1.1
 - Adding some missing (even optional) dependencies
 
